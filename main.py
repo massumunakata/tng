@@ -78,7 +78,7 @@ print("モデルを保存しました！")
 # 推論（判定）
 # =========================
 # 判定したい画像を指定
-img_path = "/home/nisimuramasato/ドキュメント/GitHub/tngchina/coffeebeanoriginaldata/Deteksi Jenis Kopi/test/5.jpg"
+img_path = "/home/nisimuramasato/ドキュメント/GitHub/tngchina/coffeebeanoriginaldata/Deteksi Jenis Kopi/test/184.jpg"
 img = Image.open(img_path)
 img = transform(img).unsqueeze(0)
 
